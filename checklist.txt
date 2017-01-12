@@ -1,0 +1,14 @@
+-Completed Website
+-Critical log (up to 1000 words) detailing how best practices and standards were identified and used throughout the site development
+	should include:
+		-URL to websites
+		-Appraisal of strengths and weaknesses of current web standards and specifications compared to previous versions
+		-Consider the sites interoperability, specific tequnequies used and the challenges presented
+		-Conformation of the W3C validation process for all markup (screenshots)
+		-evidence of file organisation, markup structuring and browser testing
+-video demo
+	should include:
+		-major aspects of the site in action on multiple browsers 
+		-showing specific features and outstanding aspects that you would like to highlight
+		-Uploaded to youtube and embedded in a dedicated page, named "DEMO" in your uploaded website
+		-reference list

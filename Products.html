@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script.js"></script>
+<title> Products </title>
+
+
+
+</head>
+<body>
+	<header> <h1> Custom Bicycles </h1> </header>
+	<hr>
+	<nav>  
+		<ul> 
+			<li><a href="Homepage.html">Home</a></li> | 
+			<li><a href="About.html">About Us</a></li> | 
+			<li><a href="Contact.html">Contact Us</a></li> 
+		</ul>  
+	</nav>
+
+	<section id="AboutUs">
+		<article>
+			<div class="frameRow">
+			<h2> Chose a frame </h2> 
+			<input type="radio" name="frame" value="150" onclick=selectFrame("frame1")><label id="frame1"> Brand-X RD-01 - Road Frame and Carbon Fork - £150</label><br>
+			<input type="radio" name="frame" value="115" onclick=selectFrame("frame2")><label id="frame2"> DK Professional V2 BMX Frame 2015 - £115</label><br>
+			<input type="radio" name="frame" value="290" onclick=selectFrame("frame3")><label id="frame3"> BeOne Mistral Sport Frame - Ex Display - £290</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="handlebarsRow">
+			<h2> Choose handlebars </h2> 
+			<input type="radio" name="handlebars" value="45" onclick=selectHandlebars("bars1")><label> Easton EA70 Ergo Road Handlebars - £45</label><br>
+			<input type="radio" name="handlebars" value="50" onclick=selectHandlebars("bars2")><label> Colony Exon Flatland BMX Bars - £50</label><br>
+			<input type="radio" name="handlebars" value="55" onclick=selectHandlebars("bars3")><label> Race Face Turbine Flat Wide Bar - £55</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="gripsRow">
+			<h2> Choose grips </h2> 
+			<input type="radio" name="grips" value="16" onclick=selectGrips("grips1")><label> Race Face Half Nelson Lock On Grips - £16</label><br>
+			<input type="radio" name="grips" value="25" onclick=selectGrips("grips2")><label> ODI Troy Lee Lock-On Bonus Pack Grips - £25</label><br>
+			<input type="radio" name="grips" value="50" onclick=selectGrips("grips3")><label> Brooks England Cambium Slender Grips - £50</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="seatRow">
+			<h2> Choose saddle </h2> 
+			<input type="radio" name="seat" value="20" onclick=selectSeat("seat1")><label> Cube RFR MTB Comfort Saddle - £20</label><br>
+			<input type="radio" name="seat" value="34" onclick=selectSeat("seat2")><label> SDG Patriot RL Cro-Mo Saddle - £34</label><br>
+			<input type="radio" name="sear" value="160" onclick=selectSeat("seat3")><label> WTB High Tail Carbon Saddle - £160</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="wheelsRow">
+			<h2> Choose wheels </h2> 
+			<input type="radio" name="wheels" value="100" onclick=selectWheels("wheels1")><label> DT Swiss R24 Spline Road Wheelset - £100</label><br>
+			<input type="radio" name="wheels" value="200" onclick=selectWheels("wheels2")><label> Vision Team 30 Road Wheelset 2016 - £200</label><br>
+			<input type="radio" name="wheels" value="55" onclick=selectWheels("wheels3")><label> Fulcrum Racing 7 Road Wheelset - Ex Display - £55</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="tyresRow">
+			<h2> Choose tyres </h2> 
+			<input type="radio" name="tyres" value="30" onclick=selectTyres("tyres1")><label> Michelin Pro 3 Race Tyres Red - £30</label><br>
+			<input type="radio" name="tyres" value="40" onclick=selectTyres("tyres2")><label> Schwalbe Magic Mary & Hans Dampf MTB Tyre Combo - £40</label><br>
+			<input type="radio" name="tyres" value="80" onclick=selectTyres("tyres3")><label> Michelin Pro4 Tubular Road Tyres 25c - £80</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="pedalsRow">
+			<h2> Choose pedals </h2> 
+			<input type="radio" name="pedals" value="40" onclick=selectPedals("pedals1")><label> Shimano Saint MX80 Flat Pedals - £40</label><br>
+			<input type="radio" name="pedals" value="90" onclick=selectPedals("pedals2")><label> Shimano XTR M9000 Race SPD Clipless MTB Pedals - £90</label><br>
+			<input type="radio" name="pedals" value="7" onclick=selectPedals("pedals3")><label> Brand-X Trekking Pedals - £7</label><br>
+			</div>
+		</article>
+		<article>
+			<div class="breaksRow">
+			<h2> Choose breaks </h2> 
+			<input type="radio" name="breaks" value="103" onclick=selectBreaks("breaks1")><label> Shimano Zee M640 Disc Brake - £103</label><br>
+			<input type="radio" name="breaks" value="188" onclick=selectBreaks("breaks2")><label> Hope Tech 3 V4 Disc Brake - 188</label><br>
+			<input type="radio" name="breaks" value="25" onclick=selectBreaks("breaks3")><label> Shimano Acera M396 Disc Brake - £25</label><br>
+			</div>
+		</article>
+	</section>
+	
+	<footer>
+			<a href="https://www.facebook.com/SonnysBicycles/"><img src="images\other\facebook.png" height="50" width="50" hspace="20"></a>
+			<a href="https://twitter.com/SonnysCustoms"><img src="images\other\twitter.png" height="50" width="50" hspace="20"></a>
+			<a href="https://www.instagram.com/sonnyscustombicycles/"><img src="images\other\insta.png" height="50" width="50" hspace="20"></a>
+			<a href="Checkout.html"><div id="checkout" onclick=checkout()> Checkout </div></a>
+	</footer>
+</body>
+</html>
